@@ -1,12 +1,12 @@
 # ProyectoSistemasOperativos
 
-## Compilacion
+## Compilación
 #### Shell 1
 $ gcc  sensor.c funcionesSensor.c comunicacion.c -o sensor
 #### Shell 2
 $ gcc  monitor.c funcionesMonitor.c comunicacion.c -o monitor
 
-## Ejecucion con 2 sensores  
+## Ejecución con 2 sensores  
 #### Shell 1
 $ ./monitor -b 10 -t file-temp.txt -h file-ph.txt -p pipe1 
 #### Shell 2
